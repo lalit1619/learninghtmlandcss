@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    flex-direction:row;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+
+}
+#centerinfo1{
+    align-self: center;
+    justify-content: center;
+    /* margin-left: 30vw; */
+    align-items: end;
+    gap: 4vw;
+}
+nav img{
+    margin-top: 2vh;
+    
+}
+#donatenow{
+    position: relative;
+    right: 2vw;
+    /* left: 20vw; */
+}
+#logo{
+    position: relative;
+    left: 0px;
+    cursor: pointer;
+}
+#donatenow button{
+    width: 15vw; align-self: center; cursor: pointer;
+    background-color: #39B54A;
+    width: auto;
+    border: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+  
+#mainbackground{
+    background-image: url("neven-krcmarek-pOWBHdgy1Lo-unsplash\ 1\ \(1\).png");
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+#black{
+    background-color: black;
+    height: 100%;
+    opacity: 0.3;
+    z-index: 1;
+    position: absolute;
+}
+ #mainbackground h1{
+    z-index: 5;
+    color: white;
+    
+    
+}
+#black button{
+    background-color: #39B54A;
+}
+#align{
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 100%;
+justify-content: center;
+}
+#align1{
+    display: flex;
+    flex-direction: column;
+}
+#align1 button{
+    background-color: #39B54A;
+    width: auto;
+    border: white;
+    border-radius: 20px;
+    padding: 8px;
+    
+}
+#aboutus{
+    margin: 20px;
+    
+    display: flex;
+    background-color: #C1E1BD;
+    padding: 20px;
+    margin: 8vw;
+    width: 80vw;
+}
+#pic{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+    gap: 2px;
+}
+.first1{
+   
+    width: 38vw;
+    height: 15vh;
+}
+#first3 img{
+    width: 38vw;
+    height: 15vh;
+}
+#text a{
+    font-weight: bold;
+}
+#ourprojects{
+  display: flex;
+  width: 80vw;
+  margin: 6.5vw;
+  gap: 2em;
+ 
+}
+.fig img{
+    width: 100%;
+}
+.fig{
+/* border: 1px solid gray; */
+width: 70%;
+border-radius:10px;
+box-shadow: 10px 10px 10px gray;
+display: grid;
+place-items: center;
+}
+
+.fig p{
+    padding: 10px;
+}
+.fig button{
+margin-bottom: 2%;
+background-color:#39B54A;
+width: auto;
+border: white;
+border-radius: 20px;
+padding: 4px;
+cursor: pointer;
+}
+.fig:hover{
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+}
+#whatsnew{
+    display: flex;
+    width: 80vw;
+    margin: 10vw;
+    gap: 10px;
+}
+#first{
+    width: 40vw;
+    height: 80vh;
+
+}
+#first img{
+    width: 100%;
+}
+#second{
+    width: 50vw;
+}
+
+#second img{
+    width: 100%;
+}  
+.second{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    box-shadow: 10px 10px 10px gray;
+   margin-bottom: 2vh;
+   padding: 10px;
+   border-top: 1px solid gray;
+   border-left: 1px solid gray;
+}
+#first{
+    box-shadow: 10px 10px 10px gray;
+    height: 64.5vh;
+    box-shadow: 0 0  10px gray;
+}
+#first p,button{
+    margin: 10px;
+    
+}
+.second p,button{
+    margin-top: 2vw;
+    vertical-align: center;
+    cursor: pointer;
+}
+.second p{
+    margin-left: 8px;
+}
+#bear{
+    width: 97vw;
+}
+#bear img{
+    width: 100%;
+}
+#vote{
+    display: flex;
+    margin: 10vw;
+    width: 80vw;
+    background-color: #F6FCE8;
+    padding: 20px;
+}
+#vote2{
+    width: 40vw;
+}
+#vote2 img{
+    width: 100%;
+    height: 100%;
+}
+#vote1{
+    width: 40vw;
+    padding: 30px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D9D9D9;
+    padding: 5vh;
+    
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+footer a{
+    text-align: center;
+}
+#lastbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#last{
+    margin-top: 2px;
+
+
+}
+#lastbutton button{
+    font-size: larger;
+    padding: 10px;
+    background-color: #39B54A;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+

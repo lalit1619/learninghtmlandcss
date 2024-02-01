@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    flex-direction:row;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+
+}
+#centerinfo1{
+    align-self: center;
+    justify-content: center;
+    /* margin-left: 30vw; */
+    align-items: end;
+    gap: 4vw;
+}
+nav img{
+    margin-top: 2vh;
+    
+}
+#donatenow{
+    position: relative;
+    right: 2vw;
+    /* left: 20vw; */
+}
+#logo{
+    position: relative;
+    left: 0px;
+    cursor: pointer;
+}
+#donatenow button{
+    width: 15vw; align-self: center; cursor: pointer;
+    background-color: #39B54A;
+    width: auto;
+    border: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    transition: all 2s ease;
+}
+body{
+    max-height: 100dvh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.small{
+    display: none;
+}
+.bgimg{
+    height: 40vh;
+    width: 100%;
+    position: relative;
+}
+.container{
+    display: grid;
+    /* grid-template-columns: ; */
+    grid-template-rows:repeat(8,auto) ;
+    background-color: rgb(228, 224, 224);
+    place-items: center;
+    gap: 1em;
+    position: absolute;
+    top: 10%;
+    border-radius: 2%;
+}
+h2{
+    text-align: center;
+    color: green;
+}
+.box{
+    display: flex;
+}
+.img-partner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
+}
+.partner>img{
+    aspect-ratio:3/2 ;
+    height: 50px;
+}
+.img-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    gap: 1em;
+}
+.card>img{
+    height: 150px;
+    aspect-ratio:3/2 ;
+}
+.donation img{
+    height: 40px;
+}
+form{
+    width:100%;
+    display: grid;
+    place-items: center;
+}
+table{
+    width: 80%;
+    /* display: grid; */
+}
+tr:last-child{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 30%;
+
+}
+button{
+    background-color: green;
+    color: white;
+    padding: .3em;
+    border-radius: .3em;
+    border: none;
+    outline: 1px solid grey;
+}
+button:hover{
+    transform: scaleX(1.2)
+    scaley(1.2);
+}
+@media(width>1100px)
+{
+    .bgimg{
+        height: 60vh;
+        width: 100%;
+        position: absolute;
+    }
+}
+@media(width<1100px) and (width>768px)
+{
+    .bgimg{
+        height: 40vh;
+        width: 100%;
+        position: absolute;
+    }
+}
+@media(width<768px)
+{
+    body{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    .bgimg{
+        height: 40vh;
+        width: 100%;
+        position: absolute;
+    }
+    .container{
+        width: 90%;
+    }
+    .img-card{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        gap: 1em;
+    }
+}
+@media(width<480px)
+{
+    body{
+        height: 100%;
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    .bgimg{
+        height: 40vh;
+        width: 100%;
+        position: absolute;
+    }
+    .container{
+        display: grid;
+        /* grid-template-columns: ; */
+        grid-template-rows:repeat(8,auto) ;
+        background-color: rgb(228, 224, 224);
+        place-items: center;
+        gap: 1em;
+        position: absolute;
+        top: 10%;
+        border-radius: 2%;
+        width: 100%;
+    }
+    .img-card{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        gap: 1em;
+    }
+    .img-partner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        gap: 1em;
+    }
+    .img-donation{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        gap: 1em;
+    }
+    
+}
